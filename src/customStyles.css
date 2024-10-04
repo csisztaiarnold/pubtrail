@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+    box-shadow: none !important;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.leaflet-popup-content-wrapper {
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0 !important;
+}
+
+.leaflet-popup-content {
+    margin: 10px 5px;
+}
+
+.popup-message {
+    font-size: 1em;
+    text-align: center;
+    color: #282c34;
+}
+
+.place {
+    padding: 10px;
+}
+
+.place a {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 720px) {
+    .popup-message {
+        font-size: 0.8em;
+    }
+}
+
+#distance-slider {
+    font-size: 1.2em !important;
+}
+
+@media (max-width: 720px) {
+    #distance-slider {
+        font-size: 1óem !important;
+    }
+}
+
+.slider-form {
+    padding: 10px;
+    box-shadow: #eee 2px 0 0;
+    height: 60px;
+}
+
+@media (max-width: 720px) {
+    .slider-form {
+        font-size: 0.8em;
+    }
+}
+
+.number-of-results {
+    padding: 10px 0 10px 0;
+    font-size: 1.2em;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+@media (max-width: 720px) {
+    .result {
+        font-size: 0.8em;
+        padding: 10px !important;
+    }
+}
+
+#results {
+    background-color: #f5f5f5;
+    padding: 0 25px;
+}
+
+.result {
+    border-bottom: 1px solid #ddd;
+    padding: 25px;
+    background-color: #fff;
+    margin-bottom: 25px;
+}
+
+.result h3 {
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: 0;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 720px) {
+    .result h3 {
+        font-size: 1.2em !important;
+        margin-bottom: 5px;
+    }
+}
+
+.result p {
+    margin: 5px 0;
+    color: #666;
+}
+
+.result a {
+    color: #333;
+    text-decoration: none;
+}
+
+.result a:hover {
+    text-decoration: underline;
+}
+
+.googlemaps {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.description {
+    display: block !important;
+    font-size: 0.8em;
+    color: #888;
+    margin-bottom: 15px !important;
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.scroll-to-top:hover {
+    background-color: #555;
+}
+
+.noresults {
+    text-align: center;
+    margin-top: 50px;
+    color: #666;
+}
+
+
+.hihi::before {
+    content: "Hihi";
+    position: absolute;
+    top: -20px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white; /* Optional: Add background color */
+    padding: 2px 5px; /* Optional: Add padding */
+    border-radius: 3px; /* Optional: Add border radius */
+    font-size: 12px; /* Optional: Adjust font size */
+}
