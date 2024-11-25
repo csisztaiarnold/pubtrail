@@ -2,7 +2,7 @@
 
 https://csisztaiarnold.github.io/pubtrail
 
-I started developing this super essential app mostly because I wanted to brush up on my rusty React skills. But as I got into experimenting, I figured I might as well solve a serious issue I often face: when I'm in an unfamiliar place and need to quickly find the nearest pubs, including those hidden gems Google Maps seems to conveniently ignore. Untappd is cool, but it doesn’t show you those cozy, slightly musty little dives where the drinks are often the best. 🍺
+I started developing this "super essential" app mostly because I wanted to brush up on my rusty React skills. But as I got into experimenting, I figured I might as well solve a serious issue I often face: when I'm in an unfamiliar place and need to quickly find the nearest pubs, including those hidden gems Google Maps seems to conveniently ignore. Untappd is cool, but it doesn’t show you those cozy, slightly musty little dives where the drinks are often the best. 🍺
 
 And thus, **PubTrail** was born.
 
