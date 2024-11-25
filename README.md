@@ -1,46 +1,15 @@
-# Getting Started with Create React App
+# Pubtrail
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[http](https://csisztaiarnold.github.io/pubtrail/)
 
-## Available Scripts
+I started developing this super essential app mostly because I wanted to brush up on my rusty React skills. But as I got into experimenting, I figured I might as well solve a serious issue I often face: when I'm in an unfamiliar place and need to quickly find the nearest pubs, including those hidden gems Google Maps seems to conveniently ignore. Untappd is cool, but it doesn’t show you those cozy, slightly musty little dives where the drinks are often the best. 🍺
 
-In the project directory, you can run:
+And thus, **PubTrail** was born.
 
-### `npm start`
+Without URL parameters, it uses your browser’s not-so-accurate geolocation to look around within a set radius. But you can also target exact coordinates. You can move the little person around the map, and every time you drop them, the app scans the area for the closest watering holes. Click on the beer mug, and you’ll get a link that (if it exists) takes you to a more detailed pub description.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The data comes from OpenStreetMaps, which means it might show places that no longer exist or have incorrect tags (like cafes or restaurants instead of pubs). You might be wondering, "Why not just include cafes and restaurants too?". Well, if I’m just looking to grab a beer or two, I really don’t want a list of Michelin-starred restaurants or coffee shops that only serve, well… coffee (This is also a personal gripe with Google Maps—it often suggests fancy restaurants when I’m just hunting for pubs, especially when I’m abroad, pubTrail keeps it real and focuses on spots actually defined as pub.) As OSM gets updated, those nonexistent places will gradually vanish.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+It’s not perfect yet and could use some fine-tuning, but it’s totally functional. Cheers, and happy pub hunting! 🍻
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Techincal details: made completely in React, used the OSM API, and basically that's it.
